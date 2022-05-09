@@ -1,0 +1,5 @@
+version: "1.29.2"
+services:
+  bender:
+    build: .
+    env_file: .env
